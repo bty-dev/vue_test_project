@@ -21,8 +21,8 @@ export default {
     return {
       time: {
         hours: null,
-        minutes: 59,
-        seconds: 55,
+        minutes: null,
+        seconds: 0,
       },
       timer: null,
       running: false,
@@ -62,9 +62,6 @@ export default {
 }
 </script>
 <style>
-.active {
-  color: #fff;
-}
 .stopwatch {
   background-color: #696969;
   display: flex;
